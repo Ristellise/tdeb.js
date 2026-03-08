@@ -1,0 +1,24 @@
+{
+  "name": "tdeb",
+  "version": "3.0.0",
+  "description": "Tiny DOM Element Builder. DOM elements without the pain.",
+  "main": "tdeb.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ristellise/tdeb.js.git"
+  },
+  "keywords":[
+    "dom",
+    "builder",
+    "vanilla",
+    "javascript",
+    "ui",
+    "zero-dependency"
+  ],
+  "author": "Shinon",
+  "license": "MIT"
+}

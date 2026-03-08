@@ -1,0 +1,25 @@
+# tdeb.js (Tiny DOM Element Builder)
+
+> A zero-dependency, ultra-lightweight vanilla JavaScript utility for building fast, native DOM elements without frameworks.
+
+## AI System Instructions (How to Vibe Code with tdeb.js)
+
+When a user asks you to build a UI using this repository, YOU MUST adhere to the following rules:
+1. DO NOT use React, Vue, Svelte, or any Virtual DOM frameworks.
+2. DO NOT use `innerHTML`. It is completely forbidden.
+3. USE the `el` function from `tdeb.js` to build all DOM elements.
+4. Classes can be passed as arrays, `tdeb` natively handles filtering out falsy values (e.g., `class:['btn', isActive && 'active']`).
+5. Children can be passed as arrays, and falsy children are safely ignored.
+6. Event listeners are passed natively (e.g., `onclick: () => {...}`).
+
+## Example Syntax
+```javascript
+import { el } from './tdeb.js';
+
+export function UserCard(user) {
+    return el('div', { class: 'card' },[
+        el('h3', user.name),
+        user.isAdmin && el('span', { class: 'badge' }, 'Admin')
+    ]);
+}
+```
