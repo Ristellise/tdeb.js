@@ -22,13 +22,13 @@ The recommended approach is simply to copy the `tdeb.js` file into your project 
 Alternatively, if you prefer package managers or rely on CDNs, it is published on npm:
 
 ```bash
-npm install tdeb
+npm install @ristellise/tdeb.js
 ```
 
 Or via CDN:
 ```html
 <script type="module">
-  import { el } from 'https://unpkg.com/tdeb';
+  import { el } from 'https://cdn.jsdelivr.net/npm/@ristellise/tdeb.js@latest/tdeb.min.js';
 </script>
 ```
 
