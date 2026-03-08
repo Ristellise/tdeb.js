@@ -1,9 +1,14 @@
 {
   "name": "@ristellise/tdeb.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny DOM Element Builder. DOM elements without the pain.",
   "main": "tdeb.js",
-  "type": "module",
+  "module": "tdeb.mjs",
+  "exports": {
+    "import": "./tdeb.mjs",
+    "require": "./tdeb.js",
+    "default": "./tdeb.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
