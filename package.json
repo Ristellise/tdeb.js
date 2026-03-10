@@ -1,6 +1,6 @@
 {
   "name": "@ristellise/tdeb.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny DOM Element Builder. DOM elements without the pain.",
   "main": "tdeb.js",
   "module": "tdeb.mjs",

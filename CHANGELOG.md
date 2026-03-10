@@ -1,5 +1,12 @@
 # Changelog
 
+
+## [1.0.2] - 2026-03-11
+
+### Changed
+
+- Recompressed `.min.mjs`/`.min.js` variants
+
 ## [1.0.1] - 2026-03-08
 
 ### Changed
